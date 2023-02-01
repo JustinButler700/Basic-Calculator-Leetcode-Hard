@@ -6,7 +6,7 @@ class Solution {
     }
     public int dfs(char[] s){
         int sum = 0;
-        int sign = 1; // keep track of the sign (either + or 0)
+        int sign = 1; // keep track of the sign (either + or -)
         int num = 0; // Holder of the current char digit.
         while(index < s.length){
             if(s[index]==')'){
